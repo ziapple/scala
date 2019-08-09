@@ -9,7 +9,7 @@
 -Dsbt.repository.config=D:/scala/sbt-1.2.8/conf/repo.properties
 -Dsbt.repository.secure=false
 ## 4. 配置repo.properties
-在%HOMEPATH%/.sbt目录下，新建或修改repositories文件
+进入conf/repo.properties
 [repositories]
   local
   aliyun: http://maven.aliyun.com/nexus/content/groups/public/

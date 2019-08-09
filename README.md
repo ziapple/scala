@@ -1,6 +1,6 @@
 # scala sbt manual 手册
 # 一、下载scala
-## 1. https://www.scala-lang.org/，两种方式一种是Scala IDE，一种是SBt，我选择后者
+## 1. <a>https://www.scala-lang.org/<a>，两种方式一种是Scala IDE，一种是SBt，我选择后者<a>https://www.scala-sbt.org/1.x/docs/Installing-sbt-on-Windows.html</a>
 ## 2. 解压sbt-1.2.8，配置环境变量
 ## 3. 配置sbt工作目录和aliyun的ivy2仓库，在conf/sbtconfig.txt下面
 -Dsbt.boot.directory=D:/scala/sbt-1.2.8/.sbt/boot

@@ -10,13 +10,13 @@
 -Dsbt.repository.secure=false
 ## 4. 配置repo.properties
 进入conf/repo.properties
-[repositories]
-  local
-  aliyun: http://maven.aliyun.com/nexus/content/groups/public/
-  typesafe: http://repo.typesafe.com/typesafe/ivy-releases/, [organization]/[module]/(scala_[scalaVersion]/)(sbt_[sbtVersion]/)[revision]/[type]s/[artifact](-[classifier]).[ext], bootOnly
-  sonatype-oss-releases
-  maven-central
-  sonatype-oss-snapshots
+- [repositories]
+  - local
+  - aliyun: http://maven.aliyun.com/nexus/content/groups/public/
+  - typesafe: http://repo.typesafe.com/typesafe/ivy-releases/, [organization]/[module]/(scala_[scalaVersion]/)(sbt_[sbtVersion]/)[revision]/[type]s/[artifact](-[classifier]).[ext], bootOnly
+  - sonatype-oss-releases
+  - maven-central
+  - sonatype-oss-snapshots
 
 # Create the project
 cd to an empty folder.
